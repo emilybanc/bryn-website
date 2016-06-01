@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+body {
+	background-color: #ededed;
+}
+
 a {
 	color: #26225F;
 }
@@ -58,8 +62,14 @@ header .container {
 	margin: 18px auto 14px auto;
 }
 
-article {
-	margin-top: 28px;
+.content {
+	padding-top: 28px;
+	padding-bottom: 12px;
+	background-color: #fff;
+}
+
+nav .container {
+	padding-bottom: 28px;
 }
 
 
@@ -121,6 +131,7 @@ nav li a {
 	color: #ccc;
 }
 
+
 /* desktop specific styles */
 @media screen and (min-width: 737px) {
 	
@@ -138,8 +149,7 @@ nav li a {
 	.menu-close {
 		display: none;
 	}
-	
-	
+
 	/* menu */
 	.navfront li, nav li a {
 		height: 220px;
@@ -215,9 +225,13 @@ nav li a {
 	
 	.navbar .navcontainer {
 		position: absolute;
-		top: 180px;
+		top: 191px;
 		left: 0;
 		width: 100%;
+	}
+
+	.navbar .container {
+		background-color: #fff;
 	}
 	
 	.navbar a {
